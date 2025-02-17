@@ -2,7 +2,7 @@
 class TarefaController {
 
     get(req, res) {
-        res.status(200).json({sucesso: "sucesso"})
+        res.status(200).json({status: "sucesso", dados: tarefas})
     }
 
     getById(req, res) {
